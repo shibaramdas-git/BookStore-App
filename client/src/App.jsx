@@ -16,8 +16,8 @@ function App() {
         <Route path='/' element={<Homepage />}/>
         <Route path='/books/create' element={<Createbook />}/>
         <Route path='/books/details/:id' element={<Showbook />}/>
-        <Route path='/books/update' element={<Updatebook />}/>
-        <Route path='/books/delete' element={<Deletebook />}/>
+        <Route path='/books/update/:id' element={<Updatebook />}/>
+        <Route path='/books/delete/:id/:title' element={<Deletebook />}/>
       </Routes>
     </Router>
     </div>
